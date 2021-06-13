@@ -42,28 +42,28 @@ export const data: Data = {
             technologies: "Python",
             url: "https://github.com/Robert-Jankowski/Gra-Alien-Invasion",
             image: "images/pexels-francesco-ungaro-1670977-rescaled.jpg",
+            categories: ["other"]
+        },
+        {
+            name: "Scalac recruitment task",
+            technologies: "Scala, ZIO",
+            url: "https://github.com/Robert-Jankowski/scalac-recruitment-task",
+            image: "images/pexels-engin-akyurt-1446948-resized.jpg",
             categories: ["AI"]
         },
         {
-            name: "Lorem ipsum dolor sit amet",
-            technologies: "Lorem ipsum dolor sit amet",
-            url: "https://github.com/Robert-Jankowski/labyrinth-ga",
-            image: "https://bulma.io/images/placeholders/256x256.png",
-            categories: ["AI"]
+            name: "Kubernetes project",
+            technologies: "Kubernetes, Docker, Node, React",
+            url: "https://github.com/Robert-Jankowski/kubernetes-project",
+            image: "images/pexels-panumas-nikhomkhai-1148820-rescaled.jpg",
+            categories: ["devops"]
         },
         {
-            name: "Lorem ipsum dolor sit amet",
-            technologies: "Lorem ipsum dolor sit amet",
-            url: "https://github.com/Robert-Jankowski/labyrinth-ga",
-            image: "https://bulma.io/images/placeholders/256x256.png",
-            categories: ["AI"]
-        },
-        {
-            name: "Lorem ipsum dolor sit amet",
-            technologies: "Lorem ipsum dolor sit amet",
-            url: "https://github.com/Robert-Jankowski/labyrinth-ga",
-            image: "https://bulma.io/images/placeholders/256x256.png",
-            categories: ["AI"]
+            name: "Svelte Portfolio",
+            technologies: "Svelte",
+            url: "https://github.com/Robert-Jankowski/robert-jankowski-portfolio",
+            image: "images/pexels-pixabay-315938 - rescaled.jpg",
+            categories: ["web"]
         }
     ],
     skills: {

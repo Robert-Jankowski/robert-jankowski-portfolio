@@ -125,6 +125,7 @@
         .project {
             height: 110px;
             width: 110px;
+            margin-bottom: 15px;
         }
     }
 </style>

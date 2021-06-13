@@ -1,18 +1,28 @@
-<script>
-	export let name;
+<script lang="ts">
+	import Welcome from "./components/Welcome.svelte";
+	import AboutMe from "./components/AboutMe.svelte";
+	import Projects from "./components/Projects.svelte";
+	import Skills from "./components/Skills.svelte";
+	import Contact from "./components/Contact.svelte";
+	import { data } from "./data/data";
+
+	const { projects, skills, welcome, about } = data;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Welcome {welcome} />
+	<AboutMe {about} />
+	<Projects {projects} />
+	<Skills {skills} />
+	<Contact />
 </main>
 
 <style>
 	main {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+		padding: 0;
+		margin: 0;
+		width: 100%;
 	}
 
 	h1 {

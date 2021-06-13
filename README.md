@@ -8,4 +8,4 @@
 - svelte-scrollto
 
 ## Live deploy
-https://robert-jankowski-portfolio.vercel.app/
+https://robert-jankowski.vercel.app/
